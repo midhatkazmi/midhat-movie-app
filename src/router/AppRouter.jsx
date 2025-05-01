@@ -7,11 +7,9 @@ function AppRouter() {
   return (
     <BrowserRouter>
         <Header />
-        <main>
-            <Routes>
-                <Route path="/" element={<PageHome />} />
-            </Routes>
-        </main>
+        <Routes>
+            <Route path="/" element={<PageHome />} />
+        </Routes>
         <Footer />
     </BrowserRouter>
   );

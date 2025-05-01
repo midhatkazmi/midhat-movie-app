@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header a {
+	display: block;
+}
+
+header li {
+	display: block;
+}
+
+h1 {
+	margin: 0;
+}
+
+img {
+	display: block;
+}
